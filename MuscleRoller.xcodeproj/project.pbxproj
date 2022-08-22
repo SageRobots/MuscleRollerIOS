@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C326E1FD28AB0874006169EE /* MuscleRollerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E1FC28AB0874006169EE /* MuscleRollerApp.swift */; };
+		C326E1FF28AB0874006169EE /* MotorZView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E1FE28AB0874006169EE /* MotorZView.swift */; };
+		C326E20128AB0877006169EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C326E20028AB0877006169EE /* Assets.xcassets */; };
+		C326E20428AB0877006169EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C326E20328AB0877006169EE /* Preview Assets.xcassets */; };
+		C326E20E28AB0877006169EE /* MuscleRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E20D28AB0877006169EE /* MuscleRollerTests.swift */; };
+		C326E21828AB0877006169EE /* MuscleRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E21728AB0877006169EE /* MuscleRollerUITests.swift */; };
+		C326E21A28AB0877006169EE /* MuscleRollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E21928AB0877006169EE /* MuscleRollerUITestsLaunchTests.swift */; };
+		C326E22828AB4FF8006169EE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E22728AB4FF8006169EE /* Theme.swift */; };
+		C326E22A28AB50F4006169EE /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E22928AB50F4006169EE /* DailyScrum.swift */; };
+		C326E22C28AB5219006169EE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E22B28AB5219006169EE /* CardView.swift */; };
+		C326E22E28AC0EEF006169EE /* MotorXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E22D28AC0EEF006169EE /* MotorXView.swift */; };
+		C326E23028AC1005006169EE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E22F28AC1005006169EE /* Menu.swift */; };
+		C326E23528ACAFED006169EE /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E23428ACAFED006169EE /* ScanView.swift */; };
+		C326E23728AD5A3F006169EE /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E23628AD5A3F006169EE /* Bluetooth.swift */; };
+		C326E23928AF5197006169EE /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E23828AF5197006169EE /* TrailingIconLabelStyle.swift */; };
+		C326E23B28B1EF58006169EE /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C326E23A28B1EF58006169EE /* CycleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C326E20A28AB0877006169EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C326E1F128AB0873006169EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C326E1F828AB0874006169EE;
+			remoteInfo = MuscleRoller;
+		};
+		C326E21428AB0877006169EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C326E1F128AB0873006169EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C326E1F828AB0874006169EE;
+			remoteInfo = MuscleRoller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C326E1F928AB0874006169EE /* MuscleRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuscleRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C326E1FC28AB0874006169EE /* MuscleRollerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleRollerApp.swift; sourceTree = "<group>"; };
+		C326E1FE28AB0874006169EE /* MotorZView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorZView.swift; sourceTree = "<group>"; };
+		C326E20028AB0877006169EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C326E20328AB0877006169EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C326E20928AB0877006169EE /* MuscleRollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleRollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C326E20D28AB0877006169EE /* MuscleRollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleRollerTests.swift; sourceTree = "<group>"; };
+		C326E21328AB0877006169EE /* MuscleRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuscleRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C326E21728AB0877006169EE /* MuscleRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleRollerUITests.swift; sourceTree = "<group>"; };
+		C326E21928AB0877006169EE /* MuscleRollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleRollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C326E22728AB4FF8006169EE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C326E22928AB50F4006169EE /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		C326E22B28AB5219006169EE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C326E22D28AC0EEF006169EE /* MotorXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorXView.swift; sourceTree = "<group>"; };
+		C326E22F28AC1005006169EE /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C326E23428ACAFED006169EE /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		C326E23628AD5A3F006169EE /* Bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
+		C326E23828AF5197006169EE /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		C326E23A28B1EF58006169EE /* CycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C326E1F628AB0874006169EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C326E20628AB0877006169EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C326E21028AB0877006169EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C326E1F028AB0873006169EE = {
+			isa = PBXGroup;
+			children = (
+				C326E1FB28AB0874006169EE /* MuscleRoller */,
+				C326E20C28AB0877006169EE /* MuscleRollerTests */,
+				C326E21628AB0877006169EE /* MuscleRollerUITests */,
+				C326E1FA28AB0874006169EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C326E1FA28AB0874006169EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C326E1F928AB0874006169EE /* MuscleRoller.app */,
+				C326E20928AB0877006169EE /* MuscleRollerTests.xctest */,
+				C326E21328AB0877006169EE /* MuscleRollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C326E1FB28AB0874006169EE /* MuscleRoller */ = {
+			isa = PBXGroup;
+			children = (
+				C326E23828AF5197006169EE /* TrailingIconLabelStyle.swift */,
+				C326E22628AB4FD1006169EE /* Models */,
+				C326E1FC28AB0874006169EE /* MuscleRollerApp.swift */,
+				C326E23428ACAFED006169EE /* ScanView.swift */,
+				C326E22F28AC1005006169EE /* Menu.swift */,
+				C326E23A28B1EF58006169EE /* CycleView.swift */,
+				C326E22D28AC0EEF006169EE /* MotorXView.swift */,
+				C326E1FE28AB0874006169EE /* MotorZView.swift */,
+				C326E20028AB0877006169EE /* Assets.xcassets */,
+				C326E20228AB0877006169EE /* Preview Content */,
+				C326E23628AD5A3F006169EE /* Bluetooth.swift */,
+			);
+			path = MuscleRoller;
+			sourceTree = "<group>";
+		};
+		C326E20228AB0877006169EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C326E20328AB0877006169EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C326E20C28AB0877006169EE /* MuscleRollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C326E20D28AB0877006169EE /* MuscleRollerTests.swift */,
+			);
+			path = MuscleRollerTests;
+			sourceTree = "<group>";
+		};
+		C326E21628AB0877006169EE /* MuscleRollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C326E21728AB0877006169EE /* MuscleRollerUITests.swift */,
+				C326E21928AB0877006169EE /* MuscleRollerUITestsLaunchTests.swift */,
+			);
+			path = MuscleRollerUITests;
+			sourceTree = "<group>";
+		};
+		C326E22628AB4FD1006169EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C326E22728AB4FF8006169EE /* Theme.swift */,
+				C326E22928AB50F4006169EE /* DailyScrum.swift */,
+				C326E22B28AB5219006169EE /* CardView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C326E1F828AB0874006169EE /* MuscleRoller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C326E21D28AB0877006169EE /* Build configuration list for PBXNativeTarget "MuscleRoller" */;
+			buildPhases = (
+				C326E1F528AB0874006169EE /* Sources */,
+				C326E1F628AB0874006169EE /* Frameworks */,
+				C326E1F728AB0874006169EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuscleRoller;
+			productName = MuscleRoller;
+			productReference = C326E1F928AB0874006169EE /* MuscleRoller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C326E20828AB0877006169EE /* MuscleRollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C326E22028AB0877006169EE /* Build configuration list for PBXNativeTarget "MuscleRollerTests" */;
+			buildPhases = (
+				C326E20528AB0877006169EE /* Sources */,
+				C326E20628AB0877006169EE /* Frameworks */,
+				C326E20728AB0877006169EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C326E20B28AB0877006169EE /* PBXTargetDependency */,
+			);
+			name = MuscleRollerTests;
+			productName = MuscleRollerTests;
+			productReference = C326E20928AB0877006169EE /* MuscleRollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C326E21228AB0877006169EE /* MuscleRollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C326E22328AB0877006169EE /* Build configuration list for PBXNativeTarget "MuscleRollerUITests" */;
+			buildPhases = (
+				C326E20F28AB0877006169EE /* Sources */,
+				C326E21028AB0877006169EE /* Frameworks */,
+				C326E21128AB0877006169EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C326E21528AB0877006169EE /* PBXTargetDependency */,
+			);
+			name = MuscleRollerUITests;
+			productName = MuscleRollerUITests;
+			productReference = C326E21328AB0877006169EE /* MuscleRollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C326E1F128AB0873006169EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C326E1F828AB0874006169EE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C326E20828AB0877006169EE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C326E1F828AB0874006169EE;
+					};
+					C326E21228AB0877006169EE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C326E1F828AB0874006169EE;
+					};
+				};
+			};
+			buildConfigurationList = C326E1F428AB0873006169EE /* Build configuration list for PBXProject "MuscleRoller" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C326E1F028AB0873006169EE;
+			productRefGroup = C326E1FA28AB0874006169EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C326E1F828AB0874006169EE /* MuscleRoller */,
+				C326E20828AB0877006169EE /* MuscleRollerTests */,
+				C326E21228AB0877006169EE /* MuscleRollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C326E1F728AB0874006169EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C326E20428AB0877006169EE /* Preview Assets.xcassets in Resources */,
+				C326E20128AB0877006169EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C326E20728AB0877006169EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C326E21128AB0877006169EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C326E1F528AB0874006169EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C326E22A28AB50F4006169EE /* DailyScrum.swift in Sources */,
+				C326E22828AB4FF8006169EE /* Theme.swift in Sources */,
+				C326E23028AC1005006169EE /* Menu.swift in Sources */,
+				C326E23B28B1EF58006169EE /* CycleView.swift in Sources */,
+				C326E23928AF5197006169EE /* TrailingIconLabelStyle.swift in Sources */,
+				C326E1FF28AB0874006169EE /* MotorZView.swift in Sources */,
+				C326E23728AD5A3F006169EE /* Bluetooth.swift in Sources */,
+				C326E22E28AC0EEF006169EE /* MotorXView.swift in Sources */,
+				C326E23528ACAFED006169EE /* ScanView.swift in Sources */,
+				C326E1FD28AB0874006169EE /* MuscleRollerApp.swift in Sources */,
+				C326E22C28AB5219006169EE /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C326E20528AB0877006169EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C326E20E28AB0877006169EE /* MuscleRollerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C326E20F28AB0877006169EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C326E21828AB0877006169EE /* MuscleRollerUITests.swift in Sources */,
+				C326E21A28AB0877006169EE /* MuscleRollerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C326E20B28AB0877006169EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C326E1F828AB0874006169EE /* MuscleRoller */;
+			targetProxy = C326E20A28AB0877006169EE /* PBXContainerItemProxy */;
+		};
+		C326E21528AB0877006169EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C326E1F828AB0874006169EE /* MuscleRoller */;
+			targetProxy = C326E21428AB0877006169EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C326E21B28AB0877006169EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C326E21C28AB0877006169EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C326E21E28AB0877006169EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuscleRoller/Preview Content\"";
+				DEVELOPMENT_TEAM = JULBH748U5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SageRobots.MuscleRoller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C326E21F28AB0877006169EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuscleRoller/Preview Content\"";
+				DEVELOPMENT_TEAM = JULBH748U5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SageRobots.MuscleRoller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C326E22128AB0877006169EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SageRobots.MuscleRollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuscleRoller.app/MuscleRoller";
+			};
+			name = Debug;
+		};
+		C326E22228AB0877006169EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SageRobots.MuscleRollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuscleRoller.app/MuscleRoller";
+			};
+			name = Release;
+		};
+		C326E22428AB0877006169EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SageRobots.MuscleRollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuscleRoller;
+			};
+			name = Debug;
+		};
+		C326E22528AB0877006169EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SageRobots.MuscleRollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuscleRoller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C326E1F428AB0873006169EE /* Build configuration list for PBXProject "MuscleRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C326E21B28AB0877006169EE /* Debug */,
+				C326E21C28AB0877006169EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C326E21D28AB0877006169EE /* Build configuration list for PBXNativeTarget "MuscleRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C326E21E28AB0877006169EE /* Debug */,
+				C326E21F28AB0877006169EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C326E22028AB0877006169EE /* Build configuration list for PBXNativeTarget "MuscleRollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C326E22128AB0877006169EE /* Debug */,
+				C326E22228AB0877006169EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C326E22328AB0877006169EE /* Build configuration list for PBXNativeTarget "MuscleRollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C326E22428AB0877006169EE /* Debug */,
+				C326E22528AB0877006169EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C326E1F128AB0873006169EE /* Project object */;
+}
